@@ -48,7 +48,6 @@ function buildListBoxOptions() {
 
     listBoxControl = new ymaps.control.ListBox(listBoxOptions(listBoxItems, reducer));
     map.controls.add(listBoxControl, { float: 'right' });
-
     addListenerListBox();
 }
 
