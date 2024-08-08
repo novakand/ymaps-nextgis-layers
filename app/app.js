@@ -70,7 +70,6 @@ function onEventsListBox(event){
     map.setType(selectedTypes.toString() ? `yandex#map,${selectedTypes.toString()}` : "yandex#map");
 }
 
-
 function setOpacityLayer(opacity) {
     map.panes.get('layers').getElement().style.opacity = opacity;
 }
