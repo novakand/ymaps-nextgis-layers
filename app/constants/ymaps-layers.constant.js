@@ -7,7 +7,7 @@ export const ymapsLayersConfig = {
         { name: 'yandex#map,ngrr3', layers: ['yandex#map', 'nextgis#ngrr3'] },
         { name: 'yandex#map,ngrr1,ngrr2,ngrr3', layers: ['yandex#map', 'nextgis#ngrr1', 'nextgis#ngrr2', 'nextgis#ngrr3'] },
         { name: 'yandex#map,ngrr1,ngrr2', layers: ['yandex#map', 'nextgis#ngrr1', 'nextgis#ngrr2'] },
-        { name: 'yandex#map,ngrr2,ngrr3', layers: ['yandex#map', 'nextgis#ngrr2', 'nextgis#ngrr2'] },
+        { name: 'yandex#map,ngrr2,ngrr3', layers: ['yandex#map', 'nextgis#ngrr2', 'nextgis#ngrr3'] },
         { name: 'yandex#map,ngrr1,ngrr3', layers: ['yandex#map', 'nextgis#ngrr1', 'nextgis#ngrr3'] }
     ],
 
