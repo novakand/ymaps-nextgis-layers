@@ -65,7 +65,6 @@ function onEventsListBox(event){
     const filters = ymaps.util.extend({}, listBoxControl.state.get('filters'));
     filters[listBoxItem.data.get('content')] = listBoxItem.isSelected();
     listBoxControl.state.set('filters', filters);
-
     map.setType(selectedTypes.toString() ? `yandex#map,${selectedTypes.toString()}` : mapType);
 }
 
