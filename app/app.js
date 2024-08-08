@@ -66,7 +66,7 @@ function onEventsListBox(event){
     filters[listBoxItem.data.get('content')] = listBoxItem.isSelected();
     listBoxControl.state.set('filters', filters);
 
-    map.setType(selectedTypes.toString() ? `yandex#map,${selectedTypes.toString()}` : "yandex#map");
+    map.setType(selectedTypes.toString() ? `yandex#map,${selectedTypes.toString()}` : mapType);
 }
 
 function setOpacityLayer(opacity) {
